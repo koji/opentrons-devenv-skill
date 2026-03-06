@@ -12,7 +12,8 @@ https://github.com/Opentrons/opentrons/blob/edge/DEV_SETUP.md
 ## how to use
 Sample prompt:
 1. Open your LLM app in the directory where you want to set up the Opentrons dev environment.
-2. Send the following prompt:
+2. Move skills in this repo to your folder
+3. Send the following prompt:
 
 ``` 
 Could you set up Opentrons development environment?
