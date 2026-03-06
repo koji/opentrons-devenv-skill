@@ -99,15 +99,23 @@ Close and reopen your terminal, then:
 nvs --version
 nvs add 22.22.0
 nvs auto on
+nvs link 22.22.0
 node --version
 ```
 ✅ Expected: `v22.22.0`
+
+To make `v22.22.0` the default every time a new terminal opens, run:
+```shell
+nvs link 22.22.0
+```
 
 If `nvs` isn't found after reopening the terminal, check that `~/.zshrc` contains:
 ```shell
 export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
 ```
+
+
 
 ---
 
